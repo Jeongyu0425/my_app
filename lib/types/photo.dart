@@ -4,8 +4,7 @@ class Photo {
   final String thumbnailPath;
   final DateTime createdAt;
   final DateTime takenAt;
-  final String? sessionId;
-  final bool isHidden;
+  final String? sessionID;
   final bool isDeleted;
 
   Photo({
@@ -14,8 +13,7 @@ class Photo {
     required this.thumbnailPath,
     required this.createdAt,
     required this.takenAt,
-    this.sessionId,
-    this.isHidden = false,
+    this.sessionID,
     this.isDeleted = false,
   });
 }
